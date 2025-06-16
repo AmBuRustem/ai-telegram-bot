@@ -1,2 +1,2 @@
-# ai-telegram-bot
-Telegram bot for AI &amp; money niche
+# AI Telegram Bot
+Простой бот для сбора заявок через Telegram.
