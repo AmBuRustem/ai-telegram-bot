@@ -12,14 +12,15 @@ CHAT_ID = "@shtormnews"
 
 # 🔹 Расширенные RSS-источники с высоким шансом видео
 RSS_FEEDS = [
-    'https://www.ntv.ru/exp/news.rss',
-    'https://www.1tv.ru/export/news.xml',
-    'https://russian.rt.com/rss',
-    'https://360tv.ru/rss/',
-    'https://www.vesti.ru/vesti.rss',
-    'https://iz.ru/xml/rss/all.xml',
-    'https://ria.ru/export/rss2/archive/index.xml'
+    "https://www.ntv.ru/exp/news.rss",
+    "https://www.1tv.ru/export/news.xml",
+    "https://360tv.ru/rss/",
+    "https://www.vesti.ru/vesti.rss",
+    "https://russian.rt.com/rss",
+    "https://ria.ru/export/rss2/archive/index.xml",
+    "https://iz.ru/xml/rss/all.xml"
 ]
+
 
 VIRAL_KEYWORDS = [
     "пожар", "взорвал", "арест", "задержан", "дтп", "авария",
