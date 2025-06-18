@@ -83,6 +83,18 @@ def send_text(caption):
     else:
         time.sleep(10)
 
+def extract_video_url(entry_url):
+    try:
+        r = requests.get(entry_url, headers=headers, timeout=10)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        iframe = soup.find("iframe")
+        if iframe and "src" in iframe.attrs:
+            return iframe["src"]
+    except Exception as e:
+        print("Не удалось извлечь iframe:", e)
+    return entry_url  # fallback
+
+
 def get_news():
     for feed_url in RSS_FEEDS:
         feed = feedparser.parse(feed_url)
