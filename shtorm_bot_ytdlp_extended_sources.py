@@ -12,12 +12,8 @@ CHAT_ID = "@shtormnews"
 
 # 🔹 Расширенные RSS-источники с высоким шансом видео
 RSS_FEEDS = [
-    "https://www.ntv.ru/exp/news.rss",
-    "https://www.1tv.ru/export/news.xml",
-    "https://www.vesti.ru/vesti.rss",
     "https://russian.rt.com/rss",
-    "https://ria.ru/export/rss2/archive/index.xml",
-    "https://iz.ru/xml/rss/all.xml"
+    "https://www.vesti.ru/vesti.rss"
 ]
 
 
