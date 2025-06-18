@@ -1,3 +1,3 @@
 
 #!/bin/bash
-python shtorm_autopost_bot.py
+python shtorm_final_bot.py
