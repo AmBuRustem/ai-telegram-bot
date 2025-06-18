@@ -14,7 +14,6 @@ CHAT_ID = "@shtormnews"
 RSS_FEEDS = [
     "https://www.ntv.ru/exp/news.rss",
     "https://www.1tv.ru/export/news.xml",
-    "https://360tv.ru/rss/",
     "https://www.vesti.ru/vesti.rss",
     "https://russian.rt.com/rss",
     "https://ria.ru/export/rss2/archive/index.xml",
