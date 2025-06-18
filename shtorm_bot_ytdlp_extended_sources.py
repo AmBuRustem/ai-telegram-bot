@@ -112,7 +112,8 @@ def get_news():
             count += 1
             caption = build_caption(title, description)
 
-            if download_video(entry.link):
+            video_url = extract_video_url(entry.link)
+if download_video(video_url):
                 send_video_file("video.mp4", caption)
                 os.remove("video.mp4")
             else:
