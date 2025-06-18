@@ -1,3 +1,3 @@
 
 #!/bin/bash
-python shtorm_bot_filtered.py
+python shtorm_bot_ytdlp.py
