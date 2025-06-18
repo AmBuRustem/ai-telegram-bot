@@ -17,7 +17,8 @@ SOURCE_CHANNELS = [
     'bazabazon',
     'shot_shot',
     'readovkanews',
-    'ENews112'
+    'ENews112',
+    'bezzludey'
 ]
 
 # 🔁 Уникализация текста
