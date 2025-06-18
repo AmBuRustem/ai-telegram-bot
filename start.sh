@@ -1,3 +1,3 @@
 
 #!/bin/bash
-python shtorm_bot_ytdlp.py
+python shtorm_bot_ytdlp_extended_sources.py
